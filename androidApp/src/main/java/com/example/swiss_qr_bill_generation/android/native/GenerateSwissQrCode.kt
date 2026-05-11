@@ -1,4 +1,4 @@
-package com.example.swiss_qr_bill_generation.android.utils.compose
+package com.example.swiss_qr_bill_generation.android.native
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -10,6 +10,7 @@ import android.util.Base64
 import android.util.Log
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.asImageBitmap
+import com.example.swiss_qr_bill_generation.android.utils.SWISS_CROSS_BASE64
 import com.google.zxing.BarcodeFormat
 import com.google.zxing.MultiFormatWriter
 import com.google.zxing.WriterException

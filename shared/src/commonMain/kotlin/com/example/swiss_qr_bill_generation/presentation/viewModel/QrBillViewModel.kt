@@ -1,9 +1,9 @@
-package com.example.swiss_qr_bill_generation.viewModel
+package com.example.swiss_qr_bill_generation.presentation.viewModel
 
 import com.example.swiss_qr_bill_generation.domain.builder.SwissQrPayloadBuilder
 import com.example.swiss_qr_bill_generation.domain.model.SwissQrBill
 
-class SwissQrBillViewModel(
+class QrBillViewModel(
     private val payloadBuilder: SwissQrPayloadBuilder
 ) {
 

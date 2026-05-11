@@ -20,7 +20,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.swiss_qr_bill_generation.android.utils.compose.GenerateSwissQRCode
+import com.example.swiss_qr_bill_generation.android.native.GenerateSwissQRCode
 
 
 /**
